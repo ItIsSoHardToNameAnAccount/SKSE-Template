@@ -1,5 +1,5 @@
 # SKSE-Template
-- Forked from SkyrimScripting(Mrowr Purr)
+- Forked from [SkyrimScripting](https://github.com/SkyrimScripting/SKSE_Template_HelloWorld)
 - I made few changes for my personal use.
 ## SetUp Creation Kit
 - Refer to [GamerPoets](https://www.youtube.com/watch?v=l3FuJA1UGvQ)'s vedio
