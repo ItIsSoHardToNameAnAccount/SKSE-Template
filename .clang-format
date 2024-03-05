@@ -1,47 +1,28 @@
-# Visual Studio 生成的 .clang-format 文件
-
-# 此文件中的样式选项是通过“工具”>“选项”
-# 复制当前 IDE 格式配置的最佳尝试。 但
-# 应该验证以下样式选项:
-# AfterClass, AfterControlStatement, AfterEnum, AfterFunction, AfterNamespace, 
-# AfterStruct, AfterUnion
-
+---
+# This file is optional but helps me ensure the same
+# code style is used in all templates.
+#
+# You can find out more about these configuration files at:
+# https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+#
+# To use this file, configure your IDE to use "clang-format".
+# This will be different for each IDE.
+#
+# You can download "clang-format" by installing LLVM from here:
+# https://github.com/llvm/llvm-project/releases
+#
+# ^ look for the latest release which has a win64.exe installer
+#   and be sure to choose the option to add LLVM to your PATH
+#   when installing
+#
+UseTab: Never
+TabWidth: '4'
+IndentWidth: '4'
+BasedOnStyle: Microsoft
 AccessModifierOffset: -4
-AlignAfterOpenBracket: DontAlign
-AllowShortBlocksOnASingleLine: true
-AllowShortFunctionsOnASingleLine: All
-BasedOnStyle: LLVM
-BraceWrapping:
-  AfterClass: false    # TODO: verify
-  AfterControlStatement: false    # TODO: verify
-  AfterEnum: false    # TODO: verify
-  AfterFunction: false    # TODO: verify
-  AfterNamespace: false    # TODO: verify
-  AfterStruct: false    # TODO: verify
-  AfterUnion: false    # TODO: verify
-  BeforeCatch: true
-  BeforeElse: true
-  IndentBraces: false
-  SplitEmptyFunction: true
-  SplitEmptyRecord: true
-BreakBeforeBraces: Custom
-ColumnLimit: 0
-Cpp11BracedListStyle: false
-FixNamespaceComments: false
-IndentCaseLabels: false
-IndentPPDirectives: None
-IndentWidth: 4
-MaxEmptyLinesToKeep: 10
+ColumnLimit: 200
 NamespaceIndentation: All
-PointerAlignment: Left
-SortIncludes: false
-SortUsingDeclarations: false
-SpaceAfterCStyleCast: false
-SpaceBeforeAssignmentOperators: true
-SpaceBeforeParens: ControlStatements
-SpaceInEmptyParentheses: false
-SpacesInCStyleCastParentheses: false
-SpacesInParentheses: false
-SpacesInSquareBrackets: false
-TabWidth: 4
-UseTab: true
+IndentPPDirectives: BeforeHash
+FixNamespaceComments: false
+
+...
